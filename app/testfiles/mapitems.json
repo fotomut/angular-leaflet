@@ -1,0 +1,34 @@
+{
+    "value": [
+        {
+            "id": 0,
+            "title": "Marker 0",
+            "distance": "0.9 mi",
+            "distanceValue": 1378,
+            "latLon": {
+                "longitude": -122.400656,
+                "latitude": 37.758274
+            }
+        },
+        {
+            "id": 1,
+            "title": "Marker 1",
+            "distance": "1.0 mi",
+            "distanceValue": 1540,
+            "latLon": {
+                "longitude": -122.41231,
+                "latitude": 37.776324
+            }
+        },
+        {
+            "id": 2,
+            "title": "Marker 2",
+            "distance": "1.0 mi",
+            "distanceValue": 1540,
+            "latLon": {
+                "longitude": -122.413763,
+                "latitude": 37.78305
+            }
+        }
+    ]
+}

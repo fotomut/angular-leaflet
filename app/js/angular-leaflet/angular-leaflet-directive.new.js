@@ -64,7 +64,7 @@
                     });
 
                     scope.$watch("center.lng", function (newValue, oldValue) {
-                        if (dragging_map) return; log(map.getCenter().lat,newValue)
+                        if (dragging_map) return; console.log(map.getCenter().lat,newValue)
                         map.setView(new L.LatLng(map.getCenter().lat, newValue), map.getZoom());
                     });
 

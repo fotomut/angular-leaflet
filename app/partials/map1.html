@@ -1,0 +1,28 @@
+
+<div leaflet-map="mapid"
+     leaflet-options="mapOptions"
+     class="mapclass">
+</div>
+
+<leaflet-marker ng-repeat="item in mapItems"
+                leaflet-lat="item.latLon.latitude"
+                leaflet-lng="item.latLon.longitude"
+                marker-options="item.markerOptions"
+                leaflet-map="mapid"
+                popup-content-function="markerPopupContentFn"
+                popup-content-options="markerPopupContentOpts"
+                model="item"
+                class="invisible">
+</leaflet-marker>
+
+
+<style>
+    .mapclass {
+        height: 300px;
+        width: 500px;
+    }
+
+    .invisible {
+        display: none;
+    }
+</style>
